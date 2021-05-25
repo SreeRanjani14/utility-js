@@ -1,5 +1,4 @@
-const head = require('./headAndTail');
-const tail = require('./headAndTail');
+const head = require('./head');
 
 describe('Head', () => {
 
@@ -11,10 +10,4 @@ describe('Head', () => {
         expect(head([])).toEqual(null);
     })
 
-})
-
-describe('Tail', () => {
-    it('Tail of list [1,2,3] is [2,3]', () => {
-        expect(tail([1,2,3])).toEqual([2,3]);
-    })
 })

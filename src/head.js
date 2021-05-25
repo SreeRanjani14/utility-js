@@ -6,8 +6,3 @@ const head = (list) => {
         return list[0];
 }
 module.exports = head;
-
-const tail = (list) => {
-    return list.slice(1);
-}
-module.exports = tail;
