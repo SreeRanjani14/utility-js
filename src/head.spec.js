@@ -1,4 +1,5 @@
 const head = require('./headAndTail');
+const tail = require('./headAndTail');
 
 describe('Head', () => {
 
@@ -7,7 +8,7 @@ describe('Head', () => {
     });
 
     it('Head of list [] is null or undefined', () => {
-        expect(head([])).toEqual(null || undefined);
+        expect(head([])).toEqual(null);
     })
 
 })
