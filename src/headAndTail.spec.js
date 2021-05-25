@@ -1,4 +1,4 @@
-const head = require('./head');
+const head = require('./headAndTail');
 
 describe('Head', () => {
 
