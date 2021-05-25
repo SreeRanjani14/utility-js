@@ -9,4 +9,11 @@ describe('Head', () => {
     it('Head of list [] is null or undefined', () => {
         expect(head([])).toEqual(null || undefined);
     })
+
+})
+
+describe('Tail', () => {
+    it('Tail of list [1,2,3] is [2,3]', () => {
+        expect(tail([1,2,3])).toEqual([2,3]);
+    })
 })
